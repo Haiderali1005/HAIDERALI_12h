@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contaner">
+
+<form class="contact-left">
+<div class="contact-left-title">
+<h2>enquiry form</h2><hr></div>
+ <label >NAME:</label>
+ <input type="text"name="name"placeholder="your name" class="contact-input"required pattern="[a-zA-Z ] {3-15}">
+<label >EMAIL:</label>
+    <input type="email" name="email"placeholder="your email" class="contact-input"required>
+<label >PASSWORD:</label>
+    <input type="password"name="name"placeholder="password" class="contact-input"required pattern="[A-Za-z ] {1-15}">
+<label >RE TYPE-PASSWORD:</label>
+    <input type="password"name="name"placeholder="re type-password" class="contact-input"required pattern="[A-Za-z ] {1-15}">
+<label >NUMBER:</label>
+    <input type="tell" name="name"placeholder="number" class="contact-input"required pattern="{1-11}">
+<label >MASSAGE:</label>
+    <textarea name="message" placeholder="your massesge" class="contact-input" required></textarea>
+<label >GENDER:</label>
+<span>
+<input type="radio" value="male" name="gender">Male <input type="radio" value="Female" name="gender">Female</span>
+<label >date of birth: </label><input type="date">
+<div class="contact-right">
+    <button type="submit" > submit </button>
+    <button type="reset">reset</button>
+</div>
+</form>
+    </div> 
+
+</body>
+</html>
